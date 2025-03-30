@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c343f6e5-567f-1767-d3dd-b2cf123d4fa4}</ProjectGuid>
+    <ProjectGuid>{17ecc18b-fb3b-6341-6c39-1ca1176bfb1b}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Siccity.GLTFUtility</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,7 +25,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <OutputPath>Temp\Bin\Debug\Siccity.GLTFUtility\</OutputPath>
     <DefineConstants>UNITY_2022_3_10;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,167 +45,55 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-     <Compile Include="Assets\Convai\Scripts\ConvaiNPC.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-     <Compile Include="Assets\Convai\Scripts\Utils\HeadMovement.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\Convai\Scripts\Utils\LookWithMouse.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-     <Compile Include="Assets\Convai\Scripts\Utils\ConvaiAPIKeySetup.cs" />
-     <Compile Include="Assets\Convai\Scripts\Utils\PlayerMovement.cs" />
-     <Compile Include="Assets\Convai\Scripts\gRPC Utils\Service.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-     <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Convai\Scripts\Utils\ConvaiGRPCAPI.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-     <Compile Include="Assets\Convai\Scripts\gRPC Utils\ServiceGrpc.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-     <Folder Include="Assets" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <Folder Include="Assets\ExampleAssets" />
-     <Folder Include="Assets\Resources" />
-     <Folder Include="Assets\ExampleAssets\Shaders" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Sprites" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\android\x86" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <Folder Include="Assets\Convai\Plugins" />
-     <Folder Include="Assets\TextMesh Pro\Sprites" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core.Api\lib" />
-     <Folder Include="Assets\ExampleAssets\Tutorial\Images" />
-     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
-     <Folder Include="Assets\Convai\Animations" />
-     <Folder Include="Assets\Atilla" />
-     <Folder Include="Assets\Convai\AnimationAvatars" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <Folder Include="Assets\Convai\Characters Resources\Model" />
-     <Folder Include="Assets\XR\Resources" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\win" />
-     <Folder Include="Assets\Convai\Characters Resources\Materials\Ellen" />
-     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core" />
-     <Folder Include="Assets\XR\UserSimulationSettings" />
-     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
-     <Folder Include="Assets\XR\Loaders" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <Folder Include="Assets\Convai\Characters Resources\Textures" />
-     <Folder Include="Assets\Convai\Characters Resources\Textures\Ellen" />
-     <Folder Include="Assets\XRI" />
-     <Folder Include="Assets\3d model" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <Folder Include="Assets\TextMesh Pro\Resources" />
-     <None Include="Assets\Convai\Characters Resources\Shaders\EyeLash.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\win\x64" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes" />
-     <Folder Include="Assets\Convai\Protos" />
-     <Folder Include="Assets\XR" />
-     <Folder Include="Assets\ExampleAssets\Prefabs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\ios" />
-     <Folder Include="Assets\TextMesh Pro" />
-     <Folder Include="Assets\XR\UserSimulationSettings\Resources" />
-     <Folder Include="Assets\ExampleAssets\Models" />
-     <None Include="Assets\Convai\Characters Resources\Shaders\EyeBallsHD.shader" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\linux\x86" />
-     <Folder Include="Assets\XRI\Settings\Resources" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\android\arm64-v8a" />
-     <Folder Include="Assets\Convai\Prefabs" />
-     <Folder Include="Assets\ExampleAssets\Scripts" />
-     <Folder Include="Assets\Convai\Scripts" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\android" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\linux\x64" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <Folder Include="Assets\Convai\Characters Resources\Materials" />
-     <Folder Include="Assets\Convai\Characters Resources\Shaders" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets\Convai\Scripts\Utils" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts" />
-     <Folder Include="Assets\Scenes" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\lib\net45" />
-     <Folder Include="Assets\Convai\Scripts\gRPC Utils" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <Folder Include="Assets\TextMesh Pro\Shaders" />
-     <Folder Include="Assets\Convai" />
-     <Folder Include="Assets\ExampleAssets\Materials" />
-     <None Include="Assets\Convai\Plugins\Grpc.Core.Api\lib\net45\Grpc.Core.Api.xml" />
-     <Folder Include="Assets\ExampleAssets\Textures" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
-     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
-     <Folder Include="Assets\TextMesh Pro\Fonts" />
-     <Folder Include="Assets\ExampleAssets\Tutorial" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Prefabs" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\osx" />
-     <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core.Api" />
-     <Folder Include="Assets\Convai\Scenes" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Scenes" />
-     <None Include="Assets\Convai\Characters Resources\Shaders\SculptedHair.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\osx\x64" />
-     <None Include="Assets\Convai\Plugins\Grpc.Core\lib\net45\Grpc.Core.xml" />
-     <Folder Include="Assets\Convai\Images" />
-     <Folder Include="Assets\XRI\Settings" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <Folder Include="Assets\XR\Settings" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\win\x86" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\osx\x86" />
-     <Folder Include="Assets\ExampleAssets\Scenes" />
-     <None Include="Assets\Convai\Characters Resources\Shaders\ToonSkin.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
-     <Folder Include="Assets\TextMesh Pro\Documentation" />
-     <Folder Include="Assets\Convai\Characters Resources" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\android\armeabi-v7a" />
-     <Folder Include="Assets\Convai\Animators" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\runtimes\linux" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core\lib" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
-     <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Resources\Color Gradient Presets" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
-     <Folder Include="Assets\Convai\Plugins\Grpc.Core.Api\lib\net45" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFBufferView.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Extensions.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFCamera.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFObject.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\Matrix4x4Converter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFAccessor.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\TranslationConverter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\EnumConverter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\Vector3Converter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFAsset.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Importer.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFAnimation.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Enums.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Settings\ImportSettings.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Settings\AnimationSettings.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFSkin.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFTexture.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\ColorConverter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\BufferedBinaryReader.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFExtras.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Settings\ShaderSettings.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFBuffer.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\QuaternionConverter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFPrimitive.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters\Vector2Converter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFMesh.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Extensions\KHR_texture_transform.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFImage.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFProperty.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Exporter.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFScene.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFNode.cs" />
+     <Compile Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec\GLTFMaterial.cs" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Settings" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\Materials\Built-in\Standard-Metallic-Blend.shader" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Materials" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\Materials\Built-in\Standard-Specular.shader" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Plugins" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\Materials\Built-in\Standard-Metallic.shader" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\Materials\Built-in\Standard-Specular-Blend.shader" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\GLTFUtility.asmdef" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Spec" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Scripts" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Materials\Built-in" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Extensions" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility" />
+     <None Include="Assets\Convai\Plugins\GLTFUtility\package.json" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Materials\URP" />
+     <Folder Include="Assets\Convai\Plugins\GLTFUtility\Scripts\Converters" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -446,14 +334,38 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.Graphs">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.Android.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.YamlDotNet">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Grpc.Core">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Assets\Convai\Plugins\Grpc.Core\lib\net45\Grpc.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Plastic.Antlr3.Runtime">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.collab-proxy@2.0.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Plastic.Newtonsoft.Json">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.collab-proxy@2.0.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     </Reference>
      <Reference Include="Google.Protobuf">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Assets\Convai\Plugins\Google.Protobuf.dll</HintPath>
+     </Reference>
+     <Reference Include="log4netPlastic">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.collab-proxy@2.0.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.IonicZip">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="Grpc.Core.Api">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Assets\Convai\Plugins\Grpc.Core.Api\lib\net45\Grpc.Core.Api.dll</HintPath>
@@ -472,6 +384,12 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.TextureAssets">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.visualscripting@1.9.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\PackageCache\com.unity.collab-proxy@2.0.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -848,235 +766,17 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Recorder.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Management">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.XR.MagicLeap">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEditor.XR.MagicLeap.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Animation.Rigging.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARSubsystems.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARCore">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARCore.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARKit.FaceTracking">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARKit.FaceTracking.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARFoundation.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Simulation">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Simulation.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARAnalytics.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARAnalytics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARSubsystems">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Management.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARCore.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARCore.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.CoreUtils.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Tutorials.Core.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Recorder">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Simulation.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Simulation.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Animation.Rigging">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.Interaction.Toolkit">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEditorBridge.007">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InternalAPIEngineBridge.007">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARFoundation">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Burst">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Tutorials.Core">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Tutorials.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.SpatialTracking">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Recorder.Base">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.SpatialTracking">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InputSystem">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.InputSystem.ForUI">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARKit">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARKit.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARKit.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARKit.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.ARFoundation.InternalUtils">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.ARFoundation.InternalUtils.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.InteractionSubsystems">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.XR.MagicLeap">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\UnityEngine.XR.MagicLeap.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\hruth\Desktop\chatbot2022\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Dracodec.csproj">
       <Project>{a23385b2-bfe8-445c-3fca-2c4f3782d7c0}</Project>
       <Name>Dracodec</Name>
-    </ProjectReference>
-    <ProjectReference Include="Siccity.GLTFUtility.csproj">
-      <Project>{17ecc18b-fb3b-6341-6c39-1ca1176bfb1b}</Project>
-      <Name>Siccity.GLTFUtility</Name>
-    </ProjectReference>
-    <ProjectReference Include="Siccity.GLTFUtility.Editor.csproj">
-      <Project>{cc1fc25f-39e4-29e4-d507-1fcf762e0b7e}</Project>
-      <Name>Siccity.GLTFUtility.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
